@@ -1,0 +1,30 @@
+button {
+    box-sizing: border-box !important; /* Set box-sizing to border-box for all buttons */
+    padding: 10px; /* Add desired padding */
+    border: 1px solid #ccc; /* Add desired border */
+    /* Add any other common button styles */
+}
+
+.seeMe{
+visibility: visible;
+position:relative;
+left:4px;
+display: inline-block;
+
+}
+
+.dontSeeMe{
+visibility:collapse;
+display: none;
+
+}
+
+#logout{
+    box-sizing: border-box !important;
+    background-color: inherit;
+    padding: 10px !important; /* Add desired padding */
+    border: 1px solid #ccc !important; /* Add desired border */
+    /* Add any other common button styles */
+}
+
+
